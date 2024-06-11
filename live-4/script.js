@@ -11,8 +11,9 @@ const colorsString = ["blue", "red", "green"];
 // Calcule automatiquement une réduction de 50%
 // Sur les prix de mon magasin
 const prices = [10, 13, 14, 15];
+    // index [0,1,2,3]
     console.log("Nombre elements dans mon tableau", prices.length);
-    console.log("index 4", prices[4]);
+    console.log("index 4e position", prices[3]);
 
 const pricesPromo = [];
     // commence à 0 ; tu t'arrêtes à 3; +1
