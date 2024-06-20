@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr-FR">
+
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -28,38 +29,26 @@
         </button>
       </form>
 
-      <section class="card">
-          <div class="card__top card__bloc">
-            <div class="card__word">
-              <h1 class="card__title">Hello</h1>
-              <p class="card__phonetic">həˈləʊ</p>
-            </div>
-
-            <button class="card__player card__player--off" type="button">
-                <svg class="card__sound card__sound--on" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                  <path d="M5.889 16H2a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1h3.889l5.294-4.332a.5.5 0 0 1 .817.387v15.89a.5.5 0 0 1-.817.387L5.89 16zm13.517 4.134l-1.416-1.416A8.978 8.978 0 0 0 21 12a8.982 8.982 0 0 0-3.304-6.968l1.42-1.42A10.976 10.976 0 0 1 23 12c0 3.223-1.386 6.122-3.594 8.134zm-3.543-3.543l-1.422-1.422A3.993 3.993 0 0 0 16 12c0-1.43-.75-2.685-1.88-3.392l1.439-1.439A5.991 5.991 0 0 1 18 12c0 1.842-.83 3.49-2.137 4.591z" />
-                </svg>
-                <svg class="card__sound card__sound--off" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                  <path d="M5.889 16H2a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1h3.889l5.294-4.332a.5.5 0 0 1 .817.387v15.89a.5.5 0 0 1-.817.387L5.89 16zm14.525-4l3.536 3.536-1.414 1.414L19 13.414l-3.536 3.536-1.414-1.414L17.586 12 14.05 8.464l1.414-1.414L19 10.586l3.536-3.536 1.414 1.414L20.414 12z" />
-                </svg>
-              </button>
+      <section class="card card--hidden js-card">
+        <div class="card__top card__bloc">
+          <div class="card__word">
+            <h1 class="card__title js-card-title"></h1>
+            <p class="card__phonetic js-card-phonetic"></p>
           </div>
-
-          <p class="card__origin card__bloc">early 19th century: variant of earlier hollo ; related to holla.</p>
-          <ul class="card__list card__bloc card__bloc--small">
-            <li class="card__meaning">
-              <p class="card__part-of-speech">exclamation</p>
-              <p class="card__definition">Used as a greeting or to begin a phone conversation.</p>
-            </li>
-
-            <li class="card__meaning">
-              <p class="card__part-of-speech">noun</p>
-              <p class="card__definition">An utterance of ‘hello’; a greeting.</p>
-            </li>
-            </ul>
-        </section>
+          <button class="card__player card__player--off js-card-button" type="button">
+            <svg class="card__sound card__sound--on" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+              <path d="M5.889 16H2a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1h3.889l5.294-4.332a.5.5 0 0 1 .817.387v15.89a.5.5 0 0 1-.817.387L5.89 16zm13.517 4.134l-1.416-1.416A8.978 8.978 0 0 0 21 12a8.982 8.982 0 0 0-3.304-6.968l1.42-1.42A10.976 10.976 0 0 1 23 12c0 3.223-1.386 6.122-3.594 8.134zm-3.543-3.543l-1.422-1.422A3.993 3.993 0 0 0 16 12c0-1.43-.75-2.685-1.88-3.392l1.439-1.439A5.991 5.991 0 0 1 18 12c0 1.842-.83 3.49-2.137 4.591z" />
+            </svg>
+            <svg class="card__sound card__sound--off" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+              <path d="M5.889 16H2a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1h3.889l5.294-4.332a.5.5 0 0 1 .817.387v15.89a.5.5 0 0 1-.817.387L5.89 16zm14.525-4l3.536 3.536-1.414 1.414L19 13.414l-3.536 3.536-1.414-1.414L17.586 12 14.05 8.464l1.414-1.414L19 10.586l3.536-3.536 1.414 1.414L20.414 12z" />
+            </svg>
+          </button>
+        </div>
+        <ul class="card__list card__bloc card__bloc--small js-card-list"></ul>
+      </section>
     </div>
   </main>
+
   <script src="./script.js"></script>
 </body>
 
