@@ -6,3 +6,6 @@ Ce cours est composé d'une série de 5 lives. Durant les lives nous allons voir
 - Connaissances CSS + HTML
 - Avoir un navigateur récent pour visualiser le rendu de notre code (Firefox, Google Chrome, Edge, Safari, Opera)
 - VS Code
+
+# Projet d'application
+- 
