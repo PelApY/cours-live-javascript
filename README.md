@@ -8,4 +8,4 @@ Ce cours est composé d'une série de 5 lives. Durant les lives nous allons voir
 - VS Code
 
 # Projet d'application
-- Mon dictionnaire dynamique
+- Mon dictionnaire dynamique - 3 lives Bonus
